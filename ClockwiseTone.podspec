@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Clockwise.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ClockwiseTone.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Clockwise"
-  spec.version      = "0.0.1"
-  spec.summary      = "Clockwise Code"
+  spec.name         = "ClockwiseTone"
+  spec.version      = "0.0.2"
+  spec.summary      = "ClockwiseTone Code"
   spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
@@ -26,10 +26,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  Clockwise Code
+  ClockwiseTone Code
                    DESC
 
-  spec.homepage     = "https://github.com/WhiteWhaleOrganization/Clockwise.git"
+  spec.homepage     = "https://github.com/WhiteWhaleOrganization/ClockwiseTone.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/WhiteWhaleOrganization/Clockwise.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/WhiteWhaleOrganization/ClockwiseTone.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
